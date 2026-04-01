@@ -1,5 +1,5 @@
 import React from 'react'
-import ORDER from '../assets/Group/order.png'
+import ORDER from '../assets/Group/ORDER.png'
 const Order = () => {
   return (
     <section className=' w-full h-[93vh] py-14'>
