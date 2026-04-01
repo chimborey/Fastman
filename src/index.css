@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+      font-family: "Roboto", sans-serif;
+}
+.hero_bg{
+      background-color: rgb(212, 255, 212);
+      z-index: -1;
+}
