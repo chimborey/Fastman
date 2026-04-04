@@ -5,7 +5,7 @@ import D1 from '../assets/d.webp'
 import A1 from '../assets/a.webp'
 import I1 from '../assets/i.jpg'
 import S1 from '../assets/images.jpg'
-import fastman from '../assets/fastman.jpg'
+import Scorpion from '../assets/Scorpion.jpg'
 const IMAGES       = [C1, D1, A1, I1, S1]
 const IMG_DURATION = 2500
 const TOTAL_MS     = IMG_DURATION * IMAGES.length
@@ -139,7 +139,7 @@ const LoadingScreen = ({ onFinish }) => {
 
             {/* Logo */}
             <div className="logo-anim flex flex-col items-center mb-10">
-              <img src={fastman} alt="logo" className="w-24 h-24 rounded-full shadow-2xl ring-2 ring-orange-500/50 object-cover mb-3"/>
+              <img src={Scorpion} alt="logo" className="w-24 h-24 rounded-full shadow-2xl ring-2 ring-orange-500/50 object-cover mb-3"/>
               <div className="title-anim text-center">
                 <div className="text-white text-3xl font-bold tracking-wide" style={{ fontFamily:"'Georgia',serif" }}>
                   Fastman
