@@ -142,7 +142,7 @@ const LoadingScreen = ({ onFinish }) => {
               <img src={Scorpion} alt="logo" className="w-24 h-24 rounded-full shadow-2xl ring-2 ring-orange-500/50 object-cover mb-3"/>
               <div className="title-anim text-center">
                 <div className="text-white text-3xl font-bold tracking-wide" style={{ fontFamily:"'Georgia',serif" }}>
-                  Fastman
+                  Scorpion
                 </div>
               </div>
             </div>
